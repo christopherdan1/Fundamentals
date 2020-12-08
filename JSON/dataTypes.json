@@ -1,0 +1,11 @@
+{
+  "JSON_DataTypes": {
+    "String": "string",
+    "Numbers": 26,
+    "Objects": { "string": "string", "number": 26 },
+    "Array": ["a", "b", "c"],
+    "BooleanT": true,
+    "BooleanF": false,
+    "Null": null
+  }
+}

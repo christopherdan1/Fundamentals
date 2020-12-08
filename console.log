@@ -1,0 +1,55 @@
+
+Writing to the Console
+types of console methods()
+
+console.log();
+console.info();
+console.warn();
+console.error();
+console.clear();
+
+console.group("Header")
+  //console methods...
+console.groupEnd();
+
+
+
+console.table(Object)
+//leaderboard
+const ApexHighscores = {
+  USA: {
+    name: "Chris Sasem",
+    damage: 4701,
+    kills: 34,
+  },
+  Canada: {
+    name: "Maple Sapnut",
+    damage: 4510,
+    kills: 33,
+  },
+  Japan: {
+    name: "Shigui Takayoshi",
+    damage: 4994,
+    kills: 35,
+  },
+};
+
+
+
+Performance Testing
+console.time("abc")
+  //your code and functions to execute
+console.timeEnd("abc") 
+
+
+
+const assertExample = () =>{
+console.assert(Condition, "Message Shows if condition is false")
+console.assert(this.value > 10 , "User entered a value < 10");
+}
+
+
+Custom console logs  ("%c")
+const spacing = 10px;
+const style= `padding: ${spacing}; background-color:white; border:1px solid black; font-size:1.2em;color:blue; border-radius:10px;`;
+console.log("%cUser Information", style);

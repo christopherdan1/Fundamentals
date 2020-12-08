@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table data from array/object</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      body {
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+      table {
+        border: 1px solid aquamarine;
+        box-shadow: inset;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>firstName</th>
+        <th>lastname</th>
+        <th>user id</th>
+        <th>status</th>
+      </tr>
+      <tr>
+        <td id="fName"></td>
+        <td id="lName">testing</td>
+        <td id="uid">testing</td>
+        <td id="status">testing</td>
+      </tr>
+    </table>
+    <script>
+      const width =
+
+      const user = {
+        firstName: "Chris",
+        lastName: "Holder",
+        uid: 8819033416,
+        status: "Graduated",
+      };
+      var firstName = document.getElementById("fname");
+      firstName.innerText = "Chris";
+      var lastName = document.getElementById("lname");
+      lastName.innerHTML = user.lastName;
+      var uid = document.getElementById("uid");
+      uid.innerHTML = user.uid;
+      var status = document.getElementById("status");
+      status.innerHTML = user.status;
+    </script>
+  </body>
+</html>

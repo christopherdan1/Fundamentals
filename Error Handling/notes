@@ -1,0 +1,16 @@
+
+"try catch error handling is the slowest thing you can write in javascript" -devMentor.live
+If you can, avoid try catch by writing good code.
+
+add line 
+ debugger;
+  to freeze the code at the line to evaluate the elements values at that stage. and open the debugger tag in dev tools.
+
+export function xyz(){...
+  const data = localStorage.getItem('asdfasdfas')
+ " if(!data) return [];"
+  return JSON.parse(data); 
+...}
+This has "if()return.." Guard Clause. We can use Guard Clauses to keep our application from crashing and its behavior predictable.
+
+

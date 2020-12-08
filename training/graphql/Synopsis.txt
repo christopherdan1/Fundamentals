@@ -1,0 +1,10 @@
+
+GRAPHQL
+
+so this is what I know so far...
+
+what is it? A query language for your API.
+Lets you filter exactly what you need from your API.
+
+Also allows for GET, POST, UPDATE request called mutations
+

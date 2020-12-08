@@ -1,0 +1,6 @@
+sessionStorage
+A page session lasts as long as the browser is open, and survives over page reloads and restores.
+
+
+localStorage
+has no expiration date unless set by developer or until the user delete cookies, cache, etc.
