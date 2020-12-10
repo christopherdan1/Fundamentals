@@ -1,3 +1,5 @@
+/* Session Storage */
+
 myStorage = window.sessionStorage;
 
 // Save data to sessionStorage

@@ -2,9 +2,14 @@
 
 Whatsapp
 
-Test Scenario:: Login
+Test Scenario:: Login WebApp
 Test Case Id:: Login-1A
 Test Priority:: High
 Pre-requisite:: N/A
 
+Step 1:
+Navigate to Whatsapp url. |  https://whatsapp-web-clone-c6268.firebaseapp.com/ |
+
+Step 2:
+Login credentials
 

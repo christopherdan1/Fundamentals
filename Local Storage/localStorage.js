@@ -14,6 +14,7 @@ const cat = localStorage.getItem('myCat');
 //Tom dies... or leaves
 localStorage.removeItem('myCat');
 
+//Tom was erased from your memory
 localStorage.clear();
 
 
