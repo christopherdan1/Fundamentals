@@ -1,10 +1,10 @@
 Steps, Description, Test Data, Expected, Actual
 1, Navigate to whatsapp url, www.whatsapp-clone.com, page Title, page Title
-2
-3
-4
-5
-6
+2, Login, Click on the Login Button, xpath, xpath
+3, Google Authentication, Google Authentication window displayed, isVisible, isVisible
+4, Add Username, add your username to input field, username123, String in xpath, String in xpath
+5, Add Password, add your password to input field, password123, String at xpath, String at xpath
+6, 
 7
 8
 9

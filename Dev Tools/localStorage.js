@@ -5,7 +5,7 @@ myStorage = window.localStorage;
 //setItem | getItem
 
 
-//You bought a new cat and named him Tom
+//You bought a new cat and named him Tom, he now lives with you
 localStorage.setItem('myCat', 'Tom');
 
 //You call for Tom

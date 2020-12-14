@@ -17,7 +17,7 @@ Error handling
 
 3. backend
 sql
-RDB
+Relational DB
 
 4. api
 REST endpoint
