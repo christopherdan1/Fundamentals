@@ -21,8 +21,8 @@ function api_interview() {
   const [randomJSON, setRandomJSON] = useState("");
 
   useEffect(() => {
-    getrandomData().then((randomData) => {
-      setRandomJSON(randomData || "No user data found");
+    getrandomData().then((x) => {
+      setRandomJSON(x || "No user data found");
     });
   }, []);
 

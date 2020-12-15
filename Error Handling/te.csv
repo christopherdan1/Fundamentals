@@ -1,11 +1,10 @@
+# Test Login Functionality with Selenium
+
 Steps, Description, Test Data, Expected, Actual
 1, Navigate to whatsapp url, www.whatsapp-clone.com, page Title, page Title
 2, Login, Click on the Login Button, xpath, xpath
-3, Google Authentication, Google Authentication window displayed, isVisible, isVisible
-4, Add Username, add your username to input field, username123, String in xpath, String in xpath
-5, Add Password, add your password to input field, password123, String at xpath, String at xpath
-6, 
-7
-8
-9
-10
+3, Google Authentication Load, Google Authentication window displayed, isVisible, isVisible
+4, Add Username, add your username to input field, username123, String in xpath
+5, Add Password, add your password to input field, password123, String at xpath
+6, Sign in with Google, Click on sign in Button, xpath, xpath
+7, Sign in was Success, Google Auth closes and renders profile homepage, pageTitle, www.whatapp-clone.com/${username}
