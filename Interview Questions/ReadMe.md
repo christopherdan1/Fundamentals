@@ -1,4 +1,4 @@
-Javascript Interview questions by @TechSith
+Javascript Interview questions by @TechSith @BenAwad
 
 1. frontend
 html 
