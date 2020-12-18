@@ -1,3 +1,5 @@
+const { fileURLToPath } = require("url");
+
 let myData = "Manchester,London,Liverpool,Birmingham,Leeds,Carlisle";
 let myArray = myData.split(",");
 console.log(myArray);
@@ -10,3 +12,8 @@ let removedItem = myArray.shift(); // save the item and removes
 
 console.log(removedItem);
 console.log(myArray);
+
+//reversing a linked list   
+// the    
+
+

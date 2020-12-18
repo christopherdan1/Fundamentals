@@ -9,5 +9,7 @@ console.log("r =", typeof r);
 
 //NaN
 var nine = "abc";
-console.log(parseInt(nine));
+console.log(parseInt(nine)); //Falsy ~ var nine is NaN
 
+
+//Jest Examples

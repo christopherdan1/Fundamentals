@@ -14,7 +14,7 @@ const axios = require("axios").default;
 //Performing a GET request
 axios
   .get("/user?ID=12345")
-  .then(function (response) {
+  .then((response) => {
     console.log(response);
   })
   .catch(function (error) {
